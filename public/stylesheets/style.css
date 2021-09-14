@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400&display=swap');
+html {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("../images/fondo.jpeg");
+    background-size: cover;
+    height: fit-content;
+    background-repeat: repeat;
+}
+button, a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin:10px;
+    color: rgb(54, 37, 0);
+    text-decoration: none; 
+    background-color: rgb(110, 155, 252);
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;   
+    margin-top: 25px;
+}
+h1 {
+    font-family:'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(110, 155, 252);
+}
+.container {
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    margin: 0 2px 5%;
+}
+#duda {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: rgb(48, 21, 2);
+    display: flex;
+    justify-content:center;
+    text-align: justify;
+    margin: 0 5px;
+}
+h2 {
+    font-family:'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(110, 155, 252);  
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    color: rgb(48, 21, 2);
+    display: flex;
+    justify-content:center;
+    text-align: justify;
+}
+
+.box { 
+    width:50%; 
+    margin: auto; 
+    text-align:center
+}
+.box span{ 
+    width:30%; 
+    margin:0 1%;  
+}
+#bot {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 5%;
+}
+ul, li {
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 16px;
+}
